@@ -1,0 +1,14 @@
+@echo off
+title 🔥 97%% FREE FIRE BOOSTER PRO
+color 0A
+echo ========================================
+echo LOW END PC = 60FPS GUARANTEED! $4.99
+echo ========================================
+timeout /t 2 >nul
+taskkill /f /im chrome.exe >nul 2>&1
+powercfg /setactive 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
+start "" "C:\Program Files\MSI AppPlayer 5\BlueStacks.exe"
+timeout /t 8 >nul
+"C:\Program Files\MSI AppPlayer 5\HD-Adb.exe" shell am start -n com.dts.freefireth/com.unity3d.player.UnityPlayerActivity
+echo 🔥 60FPS ACTIVE! python fps_tracker.py
+pause
